@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_tagline">আপনার মন ও জীবনকে সুরক্ষিত রাখুন</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">হোম</string>
+    <string name="nav_protection">সুরক্ষা</string>
+    <string name="nav_statistics">পরিসংখ্যান</string>
+    <string name="nav_location">লোকেশন</string>
+    <string name="nav_settings">সেটিংস</string>
+    <!-- Stay Focused 4-tab navigation (SPEC §1.3) -->
+    <string name="nav_dashboard">ড্যাশবোর্ড</string>
+    <string name="nav_modes">মোড</string>
+    <string name="nav_analytics">অ্যানালিটিক্স</string>
+    <string name="nav_account">অ্যাকাউন্ট</string>
+
+    <!-- Stay Focused shared strings (SPEC §2) -->
+    <string name="sf_welcome">স্বাগতম</string>
+    <string name="sf_good_morning">শুভ সকাল</string>
+    <string name="sf_good_afternoon">শুভ বিকাল</string>
+    <string name="sf_good_evening">শুভ সন্ধ্যা</string>
+
+    <!-- Common actions -->
+    <string name="action_add">যোগ করুন</string>
+    <string name="action_cancel">বাতিল</string>
+    <string name="action_close">বন্ধ করুন</string>
+    <string name="action_continue">চালিয়ে যান</string>
+    <string name="action_continue_anyway">তবুও চালিয়ে যান</string>
+    <string name="action_copy_command">কমান্ড কপি করুন</string>
+    <string name="action_delete">মুছুন</string>
+    <string name="action_not_now">এখন নয়</string>
+    <string name="action_remove">সরান</string>
+    <string name="action_save">সংরক্ষণ</string>
+    <string name="state_off">বন্ধ</string>
+    <string name="status_active">সক্রিয়</string>
+    <string name="status_inactive">নিষ্ক্রিয়</string>
+
+    <!-- Notification channels / notifications -->
+    <string name="channel_protection">সুরক্ষা চালু আছে</string>
+    <string name="channel_alerts">সুরক্ষা সতর্কতা</string>
+    <string name="channel_events">কার্যক্রম</string>
+    <string name="notif_integrity_title">আপনার সুরক্ষায় মনোযোগ দরকার</string>
+    <string name="notif_integrity_text">লকের জন্য প্রয়োজনীয় কিছু বন্ধ করা হয়েছে বা নেই। কী সমস্যা তা দেখতে PureLock খুলুন।</string>
+    <string name="notif_blocked_site_title">সাইট ব্লক করা হয়েছে</string>
+    <string name="notif_completed_title">লক সম্পন্ন হয়েছে</string>
+    <string name="notif_completed_text">চমৎকার! আপনার লক শেষ হয়েছে এবং অগ্রগতি সংরক্ষিত হয়েছে।</string>
+    <string name="notif_geofence_title">দূরত্ব ট্র্যাকিং সীমিত হতে পারে</string>
+    <string name="notif_geofence_text">লোকেশন সতর্কতা পুনরুদ্ধার করা যায়নি। PureLock-এ লোকেশন অনুমতি দেখুন।</string>
+    <string name="notif_zone_lock_title">সেফ জোন লক শুরু হয়েছে</string>
+    <string name="notif_zone_lock_text">আপনি %1$s-এ প্রবেশ করেছেন। %2$d মিনিটের একটি লক শুরু হয়েছে।</string>
+
+    <!-- Home -->
+    <string name="home_row_distance">দূরত্ব লক</string>
+    <string name="home_row_web">ওয়েবসাইট সুরক্ষা</string>
+    <string name="home_row_apps">অ্যাপ ব্লকিং</string>
+    <string name="home_row_bypass">বাইপাস প্রতিরোধ</string>
+    <string name="home_motivation_title">আজকের স্মরণিকা</string>
+    <string name="home_distance_value">%2$s-এর মধ্যে %1$s</string>
+    <string name="home_distance_interrupted">ট্র্যাকিং সীমিত (%2$s-এর মধ্যে %1$s)</string>
+    <string name="home_apps_active">%d টি অ্যাপ ব্লক করা হচ্ছে</string>
+    <string name="home_apps_needs_accessibility">অ্যাক্সেসিবিলিটি বন্ধ</string>
+    <string name="home_bypass_inactive">কোনো লক সক্রিয় নেই</string>
+    <string name="home_bypass_intact">সব পরীক্ষা সফল</string>
+    <string name="home_bypass_attention">%d টি সমস্যা পাওয়া গেছে</string>
+    <string name="home_honesty_note">PureLock শুধু সেটাই দেখায় যা সে যাচাই করতে পারে। একটি সাধারণ অ্যাপ আপনাকে তার অনুমতি বন্ধ করা বা আনইনস্টল করা থেকে আটকাতে পারে না; সে শুধু তা শনাক্ত করে আপনাকে জানাতে পারে।</string>
+    <string name="quick_start">লক শুরু করুন</string>
+    <string name="quick_filter">ওয়েবসাইট ফিল্টার</string>
+    <string name="quick_apps">অ্যাপ ব্লক</string>
+    <string name="quick_location">লোকেশন</string>
+    <string name="ring_idle_time">প্রস্তুত</string>
+    <string name="ring_idle_sub">কোনো লক সক্রিয় নেই</string>
+    <string name="ring_remaining">বাকি</string>
+    <string name="ring_distance_of">%s-এর মধ্যে</string>
+    <string name="ring_combined_any">যেকোনো শর্ত</string>
+    <string name="ring_combined_all">সব শর্ত</string>
+
+    <!-- Protection screen -->
+    <string name="prot_active_title">লক সক্রিয়</string>
+    <string name="prot_active_info">%1$s লক, শুরু হয়েছে %2$s</string>
+    <string name="prot_active_hint">যে সেটিংস আপনার সুরক্ষা দুর্বল করবে, লক শেষ না হওয়া পর্যন্ত তা বন্ধ থাকবে।</string>
+    <string name="prot_emergency_button">জরুরি ওভাররাইড</string>
+    <string name="prot_lock_title">নতুন লক শুরু করুন</string>
+    <string name="mode_time">সময়</string>
+    <string name="mode_distance">দূরত্ব</string>
+    <string name="mode_combined">সম্মিলিত</string>
+    <string name="mode_time_help">নির্বাচিত সময় শেষ না হওয়া পর্যন্ত সুরক্ষা চালু থাকবে। টাইমার সংরক্ষিত থাকে এবং অ্যাপ বন্ধ করলে বা ফোন রিস্টার্ট করলেও চলতে থাকে।</string>
+    <string name="mode_distance_help">শুরুর জায়গা থেকে নির্বাচিত দূরত্বে না যাওয়া পর্যন্ত সুরক্ষা চালু থাকবে। লোকেশন অনুমতি ও GPS লাগবে।</string>
+    <string name="mode_combined_help">সময় ও দূরত্ব দুটোই ব্যবহার করুন এবং ঠিক করুন কীভাবে লক খুলবে।</string>
+    <string name="prot_duration">সময়কাল</string>
+    <string name="prot_distance">দূরত্ব</string>
+    <string name="prot_custom_hours">ঘণ্টা</string>
+    <string name="prot_custom_minutes">মিনিট</string>
+    <string name="prot_custom_km">দূরত্ব (কিমি)</string>
+    <string name="prot_rule_title">আনলক নিয়ম</string>
+    <string name="rule_any">যেকোনো শর্ত</string>
+    <string name="rule_all">সব শর্ত</string>
+    <string name="rule_any_help">যেকোনো শর্ত: সময় শেষ হলে অথবা দূরত্বে পৌঁছালে, যেকোনো একটি পূর্ণ হলেই লক খুলে যাবে।</string>
+    <string name="rule_all_help">সব শর্ত: সময় শেষ হলে এবং দূরত্বেও পৌঁছালে, দুটোই পূর্ণ হলে তবেই লক খুলবে।</string>
+    <string name="prot_enforce_title">এই লক চলাকালীন</string>
+    <string name="prot_enforce_adult">প্রাপ্তবয়স্ক ওয়েবসাইট ব্লক করুন</string>
+    <string name="prot_enforce_apps">নির্বাচিত অ্যাপ ব্লক করুন</string>
+    <string name="prot_enforce_uninstall">আনইনস্টল সুরক্ষা</string>
+    <string name="prot_uninstall_hint">লক সক্রিয় থাকলে আপনি PureLock-এর অ্যাপ ইনফো, আনইনস্টল বা অ্যাক্সেসিবিলিটি স্ক্রিন খুললে PureLock আপনাকে হোম স্ক্রিনে ফিরিয়ে দেয়। এটি একটি প্রতিবন্ধক, নিশ্চয়তা নয়।</string>
+    <string name="prot_start_button">লক শুরু করুন</string>
+    <string name="prot_getting_location">আপনার লোকেশন নেওয়া হচ্ছে…</string>
+    <string name="chip_custom">কাস্টম</string>
+    <string name="chip_km">%d কিমি</string>
+    <string name="chip_minutes">%d মিনিট</string>
+    <string name="chip_hours">%d ঘণ্টা</string>
+    <string name="chip_days">%d দিন</string>
+    <string name="duration_h_m">%1$d ঘণ্টা %2$d মিনিট</string>
+
+    <!-- Confirmation / emergency -->
+    <string name="confirm_title">এই লক শুরু করবেন?</string>
+    <string name="confirm_time">সময়: %s</string>
+    <string name="confirm_distance">দূরত্ব: আপনার বর্তমান অবস্থান থেকে %1$.1f কিমি</string>
+    <string name="confirm_adult">প্রাপ্তবয়স্ক ওয়েবসাইট ব্লক করা হবে।</string>
+    <string name="confirm_apps">আপনার নির্বাচিত অ্যাপগুলো ব্লক করা হবে।</string>
+    <string name="confirm_irreversible">জরুরি ওভাররাইড ছাড়া আপনি নিজে লক দুর্বল বা বন্ধ করতে পারবেন না। জরুরি ওভাররাইড সবসময় আছে এবং তা নথিভুক্ত হয়।</string>
+    <string name="confirm_start">শুরু করুন</string>
+    <string name="emergency_title">জরুরি ওভাররাইড</string>
+    <string name="emergency_message">শুধু সত্যিকারের জরুরি অবস্থায় ব্যবহার করুন। এটি এখনই লক শেষ করে দেয় এবং আপনার ইতিহাসে নথিভুক্ত হয়। নিশ্চিত করতে %1$s লিখুন।</string>
+    <string name="emergency_confirm_word">আনলক</string>
+    <string name="emergency_confirm_button">লক শেষ করুন</string>
+    <string name="emergency_wrong_word">শব্দটি মেলেনি। লক এখনও সক্রিয় আছে।</string>
+    <string name="contact_offer_title">বিশ্বস্ত ব্যক্তিকে জানাবেন?</string>
+    <string name="contact_offer_message">আপনি একটি লক আগেই শেষ করেছেন। %1$s-কে কি একটি বার্তা পাঠাতে চান? আপনি মেসেজিং অ্যাপে সেন্ড না চাপা পর্যন্ত কিছুই পাঠানো হবে না।</string>
+    <string name="contact_offer_send">বার্তা লিখুন</string>
+    <string name="contact_sms_body">আমি আমার PureLock আগেই শেষ করেছি। আপনি কি আমার খোঁজ নিতে পারবেন?</string>
+
+    <!-- Adult content -->
+    <string name="adult_title">প্রাপ্তবয়স্ক কনটেন্ট সুরক্ষা</string>
+    <string name="adult_switch">প্রাপ্তবয়স্ক ওয়েবসাইট ব্লক করুন</string>
+    <string name="adult_safesearch">সেফসার্চ</string>
+    <string name="adult_safesearch_hint">Google, Bing, DuckDuckGo ও YouTube-কে তাদের নিরাপদ মোড ব্যবহার করতে বলে।</string>
+    <string name="adult_update_button">ফিল্টার তালিকা আপডেট করুন</string>
+    <string name="adult_blacklist">আমার ব্ল্যাকলিস্ট</string>
+    <string name="adult_allowlist">আমার অ্যালাউলিস্ট</string>
+    <string name="filter_status_off">অবস্থা: বন্ধ</string>
+    <string name="filter_counts">ফিল্টার তালিকা: %1$d টি ডোমেইন, আপনার ব্ল্যাকলিস্ট: %2$d, আপনার অ্যালাউলিস্ট: %3$d</string>
+    <string name="filter_last_update">সর্বশেষ আপডেট: %1$s (%2$d টি ডোমেইন)</string>
+    <string name="filter_never_updated">ছোট অন্তর্নির্মিত তালিকা ব্যবহার হচ্ছে। পূর্ণ তালিকার জন্য আপডেট করুন।</string>
+    <string name="filter_updating">আপডেট হচ্ছে…</string>
+    <string name="filter_update_done">আপডেট হয়েছে: %d টি ডোমেইন।</string>
+    <string name="filter_update_failed">আপডেট ব্যর্থ: %s</string>
+    <string name="sheet_blacklist_title">আমার ব্ল্যাকলিস্ট</string>
+    <string name="sheet_blacklist_hint">অতিরিক্ত যেসব সাইট ব্লক করবেন। সাবডোমেইনও অন্তর্ভুক্ত।</string>
+    <string name="sheet_allowlist_title">আমার অ্যালাউলিস্ট</string>
+    <string name="sheet_allowlist_hint">যেসব সাইট তালিকার কারণে কখনও ব্লক হবে না। লক চলাকালীন যোগ করা যায় না।</string>
+    <string name="domain_hint">example.com</string>
+    <string name="domain_invalid">এটি সঠিক ডোমেইন নাম নয়।</string>
+    <string name="domain_empty">এখনও কিছু নেই।</string>
+
+    <!-- Apps -->
+    <string name="apps_title">অ্যাপ ব্লকার</string>
+    <string name="apps_manage">অ্যাপ নির্বাচন করুন</string>
+    <string name="apps_a11y_on">অ্যাক্সেসিবিলিটি সার্ভিস: চালু</string>
+    <string name="apps_a11y_off">অ্যাক্সেসিবিলিটি সার্ভিস: বন্ধ। এটি ছাড়া অ্যাপ ব্লকিং কাজ করতে পারে না।</string>
+    <string name="apps_a11y_button">অ্যাক্সেসিবিলিটি সার্ভিস চালু করুন</string>
+    <string name="apps_usage_on">ব্যবহারের অনুমতি: চালু (দৈনিক সীমা কাজ করবে)</string>
+    <string name="apps_usage_off">ব্যবহারের অনুমতি: বন্ধ। দৈনিক সীমার জন্য এটি দরকার।</string>
+    <string name="apps_usage_button">ব্যবহারের অনুমতি দিন</string>
+    <string name="apps_owner_on">ডিভাইস ওনার মোড: চালু</string>
+    <string name="apps_owner_off">ডিভাইস ওনার মোড: বন্ধ (ঐচ্ছিক, আরও শক্তিশালী সুরক্ষা)</string>
+    <string name="apps_owner_button">ডিভাইস ওনার সেটআপ গাইড</string>
+    <string name="apps_limits">একটি সাধারণ অ্যাপ নিশ্চিত করতে পারে না যে তাকে ফোর্স-স্টপ, আনইনস্টল বা তার অনুমতি প্রত্যাহার করা হবে না। PureLock তা শনাক্ত করে জানায়। ডিভাইস ওনার ঐচ্ছিক এবং কখনও নিজে নিজে চালু হয় না।</string>
+    <string name="apps_screen_title">অ্যাপ নির্বাচন</string>
+    <string name="apps_search_hint">অ্যাপ খুঁজুন</string>
+    <string name="apps_usage_note_on">আজকের ব্যবহার অ্যান্ড্রয়েডের ব্যবহারের অনুমতি থেকে নেওয়া।</string>
+    <string name="apps_usage_note_off">ব্যবহার দেখতে ও দৈনিক সীমা দিতে সুরক্ষা স্ক্রিনে ব্যবহারের অনুমতি চালু করুন।</string>
+    <string name="app_state_blocked">ব্লকড</string>
+    <string name="app_state_allowed">অনুমোদিত</string>
+    <string name="app_state_always">সবসময় চালু</string>
+    <string name="app_usage_today">আজ: %s</string>
+    <string name="app_limit">সীমা: দিনে %d মিনিট</string>
+    <string name="rule_block">এই অ্যাপ ব্লক করুন</string>
+    <string name="rule_during_lock">লক সক্রিয় থাকলে ব্লক করুন</string>
+    <string name="rule_daily_limit">দৈনিক সীমা (মিনিটে, ০ = সীমা নেই)</string>
+    <string name="rule_limit_hint">আজকের ব্যবহার সীমায় পৌঁছালে অ্যাপটি ব্লক হবে।</string>
+    <string name="rule_limit_needs_access">দৈনিক সীমার জন্য ব্যবহারের অনুমতি লাগবে (সুরক্ষা স্ক্রিন)।</string>
+    <string name="rule_allowlist">সবসময় অনুমতি দিন (কখনও ব্লক নয়)</string>
+    <string name="rule_always_available">ফোন, জরুরি, লঞ্চার ও সিস্টেম অ্যাপ কখনও ব্লক করা যায় না।</string>
+    <string name="a11y_service_description">আপনার নির্বাচিত অ্যাপ ব্লক করতে PureLock শুধু দেখে কোন অ্যাপ সামনে আছে। কিছুই সংরক্ষণ বা পাঠানো হয় না।</string>
+    <string name="a11y_disclosure_title">অ্যাক্সেসিবিলিটি সার্ভিস</string>
+    <string name="a11y_disclosure_message">অ্যাপ ব্লক করতে PureLock-এর অ্যান্ড্রয়েডের অ্যাক্সেসিবিলিটি সার্ভিস দরকার।\n\nএটি যা করে: কোন অ্যাপ সামনে এসেছে তা দেখে, আর লক সক্রিয় থাকলে কোনো সেটিংস স্ক্রিনে PureLock দেখা যাচ্ছে কিনা পরীক্ষা করে আপনাকে হোমে পাঠায়।\n\nযা করে না: আপনি যা টাইপ করেন বা আপনার বার্তা পড়ে না, আর এটি যা দেখে তার কিছুই সংরক্ষণ বা কোথাও পাঠানো হয় না।\n\nআপনি যেকোনো সময় অ্যান্ড্রয়েড সেটিংসে এটি বন্ধ করতে পারেন।</string>
+    <string name="a11y_agree_open">বুঝেছি, সেটিংস খুলুন</string>
+    <string name="a11y_continue_without">অ্যাপ ব্লকিং ছাড়া শুরু করুন</string>
+    <string name="a11y_after_enable">অ্যাক্সেসিবিলিটিতে PureLock চালু করুন, তারপর আবার লক শুরু করুন।</string>
+    <string name="owner_title">ডিভাইস ওনার (ঐচ্ছিক)</string>
+    <string name="owner_message">ডিভাইস ওনার আরও শক্তিশালী সুরক্ষা দেয়: লক সক্রিয় থাকলে PureLock আনইনস্টল ও ফোর্স-স্টপ করা আটকে যায়।\n\nএটি শুধু আপনি নিজে সেটআপ করতে পারেন, যে ডিভাইসে কোনো অ্যাকাউন্ট যোগ করা নেই (বা ফ্যাক্টরি রিসেটের পর), USB ডিবাগিং চালু করে কম্পিউটার থেকে:\n\n%s\n\nPureLock কখনও নিজে এটি চালু করে না। জরুরি কল সবসময় কাজ করবে।</string>
+    <string name="msg_copied">কপি হয়েছে</string>
+
+    <!-- Block screen -->
+    <string name="block_title">%s ব্লক করা আছে</string>
+    <string name="block_title_protected">PureLock দ্বারা সুরক্ষিত</string>
+    <string name="block_reason_lock">একটি লক সক্রিয় আছে।</string>
+    <string name="block_reason_limit">এই অ্যাপের জন্য আজকের সীমায় পৌঁছে গেছেন।</string>
+    <string name="block_reason_condition">এই অ্যাপের জন্য আপনার নিয়ম অনুযায়ী বন্ধ আছে।</string>
+    <string name="block_reason_protect">লক সক্রিয় থাকলে PureLock-এর সেটিংস সুরক্ষিত থাকে।</string>
+    <string name="block_go_home">হোমে যান</string>
+    <string name="block_emergency_call">জরুরি কল</string>
+    <string name="block_call_trusted">%s-কে কল করুন</string>
+
+    <!-- Statistics -->
+    <string name="stats_protection_time">সুরক্ষার সময়</string>
+    <string name="stats_total">মোট</string>
+    <string name="stats_today">আজ</string>
+    <string name="stats_week">৭ দিন</string>
+    <string name="stats_month">৩০ দিন</string>
+    <string name="stats_last7">গত ৭ দিন</string>
+    <string name="stats_streak">ফোকাস স্ট্রিক</string>
+    <string name="stats_sessions">সম্পন্ন লক</string>
+    <string name="stats_blocks_title">ব্লক ও বিঘ্ন</string>
+    <string name="stats_web_blocks">ব্লক করা ওয়েবসাইট: %d</string>
+    <string name="stats_app_blocks">ব্লক করা অ্যাপ: %d</string>
+    <string name="stats_interruptions">সুরক্ষায় বিঘ্ন: %d</string>
+    <string name="stats_achievements">অর্জন</string>
+    <string name="stats_empty">এখনও কোনো তথ্য নেই। পরিসংখ্যান শুধু প্রকৃত সুরক্ষার সময় ও প্রকৃত ব্লক থেকে গণনা হয়।</string>
+    <string name="ach_first">প্রথম লক</string>
+    <string name="ach_streak3">৩ দিনের স্ট্রিক</string>
+    <string name="ach_streak7">৭ দিনের স্ট্রিক</string>
+    <string name="ach_streak30">৩০ দিনের স্ট্রিক</string>
+    <string name="ach_total24">২৪ ঘণ্টা সুরক্ষা</string>
+    <string name="ach_blocks100">১০০টি ব্লক</string>
+
+    <!-- Location -->
+    <string name="loc_current_title">বর্তমান অবস্থান</string>
+    <string name="loc_accuracy">নির্ভুলতা: প্রায় %1$d মিটার (%2$s)</string>
+    <string name="acc_high">উচ্চ</string>
+    <string name="acc_medium">মাঝারি</string>
+    <string name="acc_low">নিম্ন</string>
+    <string name="loc_perm_none">লোকেশন অনুমতি: দেওয়া হয়নি</string>
+    <string name="loc_perm_foreground">লোকেশন অনুমতি: শুধু অ্যাপ খোলা থাকলে</string>
+    <string name="loc_perm_all">লোকেশন অনুমতি: দেওয়া আছে, ব্যাকগ্রাউন্ডসহ</string>
+    <string name="loc_grant_button">লোকেশন অনুমতি দিন</string>
+    <string name="loc_grant_background">ব্যাকগ্রাউন্ড লোকেশনের অনুমতি দিন</string>
+    <string name="loc_gps_button">লোকেশন (GPS) চালু করুন</string>
+    <string name="loc_unavailable_permission">লোকেশন পাওয়া যাচ্ছে না: অনুমতি দেওয়া হয়নি।</string>
+    <string name="loc_waiting_fix">লোকেশনের অপেক্ষা করা হচ্ছে…</string>
+    <string name="loc_distance_title">দূরত্ব লক</string>
+    <string name="loc_no_distance_lock">কোনো দূরত্ব লক সক্রিয় নেই।</string>
+    <string name="loc_distance_info">শুরু: %1$s\nঅতিক্রান্ত: %3$s-এর মধ্যে %2$s\nসর্বশেষ লোকেশন: %4$s</string>
+    <string name="loc_no_fix_yet">এখনও পাওয়া যায়নি</string>
+    <string name="loc_note_ok">ট্র্যাকিং সম্ভব। তবুও ব্যাটারি বাঁচাতে অ্যান্ড্রয়েড ব্যাকগ্রাউন্ড পরীক্ষা থামিয়ে দিতে পারে।</string>
+    <string name="loc_note_no_permission">ট্র্যাকিং চলছে না: লোকেশন অনুমতি নেই।</string>
+    <string name="loc_note_no_background">ব্যাকগ্রাউন্ড লোকেশনের অনুমতি নেই। দূরত্ব শুধু অ্যাপ খোলা থাকলে এবং খুব বেশি হলে প্রায় ১৫ মিনিট পরপর আপডেট হবে।</string>
+    <string name="loc_note_gps_off">লোকেশন (GPS) বন্ধ, তাই দূরত্ব আপডেট হচ্ছে না।</string>
+    <string name="loc_privacy_title">গোপনীয়তা</string>
+    <string name="loc_privacy_text">লোকেশন তথ্য এই ডিভাইসেই থাকে, কখনও আপলোড হয় না। শুধু গত ৩০ দিনের তথ্য রাখা হয়।</string>
+    <string name="loc_delete_history">লোকেশন ইতিহাস মুছুন</string>
+    <string name="loc_delete_confirm">সংরক্ষিত সব লোকেশন পয়েন্ট মুছে যাবে। এটি ফেরানো যাবে না।</string>
+    <string name="zones_title">সেফ জোন</string>
+    <string name="zones_hint">নামযুক্ত স্থান। কোনো জোনে পৌঁছালে সেটি নিজে থেকে সময় লক শুরু করতে পারে।</string>
+    <string name="zones_empty">এখনও কোনো সেফ জোন নেই।</string>
+    <string name="zones_add_button">আমার অবস্থানে জোন যোগ করুন</string>
+    <string name="zone_dialog_message">আপনি এখন যেখানে আছেন, তার চারপাশে জোন তৈরি হবে।</string>
+    <string name="zone_name">নাম</string>
+    <string name="zone_radius">ব্যাসার্ধ মিটারে (১০০ থেকে ৫০০০)</string>
+    <string name="zone_auto_lock">পৌঁছালে অটো-লক মিনিট (০ = নেই)</string>
+    <string name="zone_invalid">একটি নাম, ১০০ থেকে ৫০০০ মিটার ব্যাসার্ধ এবং ০ থেকে ১০০৮০ মিনিট লিখুন।</string>
+    <string name="zone_needs_background">অটো-লক কাজ করতে ব্যাকগ্রাউন্ড লোকেশন অনুমতি লাগবে।</string>
+    <string name="zone_detail_radius">ব্যাসার্ধ %d মিটার</string>
+    <string name="zone_detail_auto">অটো-লক %d মিনিট</string>
+    <string name="zone_delete_confirm">এই সেফ জোন মুছবেন?</string>
+
+    <!-- Permissions -->
+    <string name="perm_location_title">লোকেশন অনুমতি</string>
+    <string name="perm_location_message">দূরত্ব লকে আপনি কতদূর গেছেন তা মাপতে আপনার লোকেশন দরকার। এটি শুধু এই ডিভাইসে সংরক্ষিত হয়, কখনও আপলোড হয় না।</string>
+    <string name="perm_background_title">ব্যাকগ্রাউন্ড লোকেশন</string>
+    <string name="perm_background_message">অ্যাপ বন্ধ থাকলেও যাতে দূরত্ব আপডেট হতে থাকে, তাই অ্যান্ড্রয়েড \"সবসময় অনুমতি দিন\" লোকেশন চাইবে। এটি ছাড়া ট্র্যাকিং শুধু অ্যাপ খোলা থাকলে কাজ করে।</string>
+    <string name="perm_background_denied_title">ব্যাকগ্রাউন্ড লোকেশনের অনুমতি নেই</string>
+    <string name="perm_background_denied_message">দূরত্ব শুধু অ্যাপ খোলা থাকলে আপডেট হবে। PureLock তা সততার সাথে দেখাবে। তবুও লক শুরু করবেন?</string>
+
+    <!-- Settings -->
+    <string name="set_appearance">চেহারা</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="theme_white">হোয়াইট</string>
+    <string name="set_language">ভাষা</string>
+    <string name="set_notifications">নোটিফিকেশন</string>
+    <string name="set_alerts">সুরক্ষায় বিঘ্ন ঘটলে আমাকে জানান</string>
+    <string name="set_notif_on">নোটিফিকেশনের অনুমতি আছে।</string>
+    <string name="set_notif_off">নোটিফিকেশন বন্ধ, তাই আপনি সতর্কতা দেখবেন না।</string>
+    <string name="set_notif_open">নোটিফিকেশন সেটিংস খুলুন</string>
+    <string name="set_lock_prefs">লক পছন্দ</string>
+    <string name="set_keep_filter">লক শেষের পরও ওয়েবসাইট ফিল্টার চালু রাখুন</string>
+    <string name="set_uninstall_protection">লক চলাকালীন আনইনস্টল সুরক্ষা</string>
+    <string name="set_battery">ব্যাটারি অপ্টিমাইজেশন</string>
+    <string name="set_battery_ok">ব্যাটারি অপ্টিমাইজেশন PureLock-কে সীমিত করছে না।</string>
+    <string name="set_battery_restricted">ব্যাটারি অপ্টিমাইজেশন ব্যাকগ্রাউন্ড পরীক্ষায় দেরি করতে পারে। PureLock-কে সীমাহীনভাবে চলার অনুমতি দিন।</string>
+    <string name="set_battery_button">ব্যাটারি সেটিংস খুলুন</string>
+    <string name="set_trusted">বিশ্বস্ত ব্যক্তি</string>
+    <string name="set_trusted_hint">ঐচ্ছিক। আপনি আগেই লক শেষ করলে PureLock এই ব্যক্তিকে বার্তা লেখার প্রস্তাব দেয়। নিজে নিজে কিছু পাঠানো হয় না। এই ডিভাইসে এনক্রিপ্ট করে রাখা হয়।</string>
+    <string name="set_trusted_name">নাম</string>
+    <string name="set_trusted_phone">ফোন নম্বর</string>
+    <string name="set_privacy">গোপনীয়তা</string>
+    <string name="set_privacy_text">কোনো অ্যানালিটিক্স নেই, বিজ্ঞাপন নেই, অ্যাকাউন্ট নেই। সবকিছু এই ডিভাইসেই সংরক্ষিত। একমাত্র নেটওয়ার্ক অনুরোধ হলো ঐচ্ছিক ফিল্টার তালিকা ডাউনলোড, যা কোনো ব্যক্তিগত তথ্য পাঠায় না।</string>
+    <string name="set_store_history">লোকেশন ইতিহাস এই ডিভাইসে সংরক্ষণ করুন</string>
+    <string name="set_backup">ব্যাকআপ ও রিস্টোর</string>
+    <string name="set_backup_hint">আপনার নিয়ম ও পরিসংখ্যান আপনার বেছে নেওয়া একটি ফাইলে সংরক্ষণ করে। এতে লোকেশন ইতিহাস, বিশ্বস্ত ব্যক্তি বা সক্রিয় লক কখনও থাকে না।</string>
+    <string name="set_export">এক্সপোর্ট</string>
+    <string name="set_import">ইম্পোর্ট</string>
+    <string name="set_clear_all">সব লোকাল ডাটা মুছুন</string>
+    <string name="set_clear_confirm">এতে এই ডিভাইস থেকে সব সেটিংস, নিয়ম, পরিসংখ্যান ও ইতিহাস মুছে যাবে। লক সক্রিয় থাকলে এটি করা যায় না। এটি ফেরানো যাবে না।</string>
+    <string name="set_security_log">সাম্প্রতিক নিরাপত্তা ঘটনা</string>
+    <string name="set_no_events">এখনও কিছু নথিভুক্ত হয়নি।</string>
+    <string name="set_about">PureLock সম্পর্কে</string>
+    <string name="set_about_text">PureLock %s\nএকটি স্বেচ্ছামূলক আত্মনিয়ন্ত্রণ টুল। এটি নিজের সীমাবদ্ধতা নিয়ে সৎ: নিজের কাছে করা প্রতিজ্ঞা রাখতে সাহায্য করে, কিন্তু অ্যান্ড্রয়েডকে ছাপিয়ে যেতে পারে না।</string>
+    <string name="ev_lock_started">লক শুরু হয়েছে</string>
+    <string name="ev_lock_completed">লক সম্পন্ন হয়েছে</string>
+    <string name="ev_emergency">জরুরি ওভাররাইড</string>
+    <string name="ev_time_changed">ডিভাইসের সময় পরিবর্তন করা হয়েছে</string>
+    <string name="ev_reboot">রিস্টার্টের পর পুনরুদ্ধার হয়েছে</string>
+    <string name="ev_integrity_issue">সুরক্ষায় সমস্যা শনাক্ত হয়েছে</string>
+    <string name="ev_integrity_restored">সুরক্ষা পুনরুদ্ধার হয়েছে</string>
+    <string name="ev_geofence_error">লোকেশন সতর্কতায় ত্রুটি</string>
+    <string name="ev_zone_lock">সেফ জোন লক শুরু হয়েছে</string>
+    <string name="ev_other">ঘটনা</string>
+
+    <!-- Messages and errors -->
+    <string name="msg_lock_started">লক শুরু হয়েছে। দৃঢ় থাকুন।</string>
+    <string name="msg_lock_already_active">একটি লক ইতিমধ্যে সক্রিয় আছে।</string>
+    <string name="msg_locked_cannot_change">লক সক্রিয় থাকলে এটি সম্ভব নয়।</string>
+    <string name="msg_emergency_done">লক শেষ করা হয়েছে এবং নথিভুক্ত হয়েছে।</string>
+    <string name="msg_history_deleted">লোকেশন ইতিহাস মুছে ফেলা হয়েছে।</string>
+    <string name="msg_contact_saved">যোগাযোগ সংরক্ষিত হয়েছে।</string>
+    <string name="msg_export_ok">ব্যাকআপ সংরক্ষিত হয়েছে।</string>
+    <string name="msg_export_failed">ব্যাকআপ সংরক্ষণ করা যায়নি।</string>
+    <string name="msg_import_ok">ব্যাকআপ পুনরুদ্ধার হয়েছে।</string>
+    <string name="msg_import_failed">পুনরুদ্ধার করা যায়নি: ফাইলটি সঠিক PureLock ব্যাকআপ নয়।</string>
+    <string name="msg_data_cleared">সব লোকাল ডাটা মুছে ফেলা হয়েছে।</string>
+    <string name="err_location_denied">লোকেশন অনুমতি দেওয়া হয়নি।</string>
+    <string name="err_gps_disabled">লোকেশন (GPS) বন্ধ আছে। চালু করে আবার চেষ্টা করুন।</string>
+    <string name="err_no_fix">আপনার লোকেশন পাওয়া যায়নি। খোলা জায়গায় গিয়ে আবার চেষ্টা করুন।</string>
+    <string name="err_custom_duration">৩ মিনিট থেকে ৯০ দিনের মধ্যে সময়কাল লিখুন।</string>
+    <string name="err_custom_distance">০.৫ কিমি থেকে ২০০ কিমির মধ্যে দূরত্ব লিখুন।</string>
+
+    <plurals name="apps_summary">
+        <item quantity="one">ব্লকের জন্য %d টি অ্যাপ নির্বাচিত</item>
+        <item quantity="other">ব্লকের জন্য %d টি অ্যাপ নির্বাচিত</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="one">%d দিন</item>
+        <item quantity="other">%d দিন</item>
+    </plurals>
+    <plurals name="history_count">
+        <item quantity="one">%d টি সংরক্ষিত লোকেশন পয়েন্ট</item>
+        <item quantity="other">%d টি সংরক্ষিত লোকেশন পয়েন্ট</item>
+    </plurals>
+
+    <!-- অ্যাপ নিয়ম ডায়ালগ -->
+    <string name="rule_section_blocking">ব্লকিং</string>
+    <string name="rule_section_limit">দৈনিক সীমা</string>
+
+    <!-- ম্যাপ -->
+    <string name="map_title">লোকেশন ম্যাপ</string>
+    <string name="map_view_button">ম্যাপ দেখুন</string>
+    <string name="map_my_location">আমার অবস্থান</string>
+    <string name="map_satellite">স্যাটেলাইট</string>
+    <string name="map_map">ম্যাপ</string>
+    <string name="map_tap_hint">ম্যাপে চাপ দিয়ে জোন যোগ করুন, বা মার্কারে চাপ দিন।</string>
+    <string name="map_lock_active">লক সক্রিয়</string>
+    <string name="map_lock_open">খোলা — কোনো লক সক্রিয় নেই</string>
+    <string name="map_no_zones">এখনও কোনো সেফ জোন নেই।</string>
+    <string name="map_zones_saved">%dটি জোন সেভ করা আছে</string>
+    <string name="map_add_here">এখানে জোন যোগ করুন</string>
+    <string name="map_new_zone">এখানে নতুন জোন</string>
+    <string name="map_radius">ব্যাসার্ধ</string>
+    <string name="map_m_away">%1$d মি দূরে</string>
+    <string name="map_inside_locking">ভেতরে আছো — লক চলছে</string>
+    <string name="map_outside_open">বাইরে আছো — খোলা</string>
+    <string name="map_location_unavailable">অবস্থান পাওয়া যাচ্ছে না — GPS চালু করুন।</string>
+    <string name="map_finding_location">আপনার অবস্থান খোঁজা হচ্ছে…</string>
+    <string name="map_location_failed">অবস্থান পাওয়া যায়নি। GPS চালু করে বাইরে আবার চেষ্টা করুন।</string>
+    <string name="map_internet_note">ম্যাপ দেখতে ইন্টারনেট লাগবে, লক GPS-এ অফলাইনে কাজ করে।</string>
+    <string name="map_zone_saved">জোন সংরক্ষণ হয়েছে</string>
+    <string name="map_webgl_missing">এই ফোনের WebView-এ WebGL চালু নেই — ম্যাপ দেখা যাবে না।</string>
+
+    <string-array name="motivation_messages">
+        <item>প্রতিটি মিনিট দৃঢ় থাকা মানে নিজের কাছে করা একটি প্রতিজ্ঞা রক্ষা।</item>
+        <item>আপনার মনকে রক্ষা করুন, জীবন তার পেছনে পেছনে আসবে।</item>
+        <item>তাড়না চলে যায়। যে আত্মসম্মান অর্জন করেন, তা থেকে যায়।</item>
+        <item>আজকের ছোট জয়গুলোই গড়ে তোলে আপনি যে মানুষ হতে চান তাকে।</item>
+        <item>একটি গভীর শ্বাস নিন, একটু হেঁটে আসুন, নিয়ন্ত্রণ ফিরিয়ে নিন।</item>
+        <item>এক মুহূর্তের দুর্বলতার চেয়ে আপনি অনেক শক্তিশালী।</item>
+        <item>ক্ষণিকের তাড়না নয়, ভবিষ্যতের নিজেকে বেছে নিন।</item>
+    </string-array>
+
+    <!-- মকআপ UI (নতুন) -->
+    <string name="nav_analysis">অ্যানালাইসিস</string>
+    <string name="nav_map">ম্যাপ</string>
+    <string name="nav_stats">পরিসংখ্যান</string>
+    <string name="ui_get_started">শুরু করুন</string>
+    <string name="ui_feature_focused">মনোযোগ ধরে রাখুন</string>
+    <string name="ui_feature_block">বিভ্রান্তি ব্লক করুন</string>
+    <string name="ui_feature_better">ভালোভাবে বাঁচুন</string>
+    <string name="home_status_active">সুরক্ষা চালু আছে</string>
+    <string name="home_status_inactive">সুরক্ষা বন্ধ আছে</string>
+    <string name="home_locked_until">লক থাকবে</string>
+    <string name="home_quick_actions">দ্রুত কাজ</string>
+    <string name="home_view_all">সব দেখুন</string>
+    <string name="lock_time_card">সময় লক</string>
+    <string name="lock_distance_card">দূরত্ব লক</string>
+    <string name="lock_combined_card">কম্বাইন্ড লক</string>
+    <string name="lock_zones_card">নিরাপদ জোন</string>
+    <string name="qa_websites">ওয়েবসাইট ব্লক</string>
+    <string name="qa_apps">অ্যাপ ব্লক</string>
+    <string name="qa_stats">পরিসংখ্যান দেখুন</string>
+    <string name="qa_settings">সেটিংস</string>
+    <string name="prot_tab_smart">স্মার্ট লক</string>
+    <string name="prot_tab_website">ওয়েবসাইট</string>
+    <string name="prot_tab_apps">অ্যাপ ব্লকার</string>
+    <string name="ui_time_lock_title">১. সময় লক</string>
+    <string name="ui_time_lock_sub">প্রিসেট বা নিজের সময় বেছে নিন</string>
+    <string name="ui_distance_lock_title">২. দূরত্ব লক</string>
+    <string name="ui_distance_lock_sub">নির্দিষ্ট দূরত্ব গেলে লক হবে</string>
+    <string name="ui_combined_lock_title">৩. কম্বাইন্ড লক</string>
+    <string name="ui_combined_lock_sub">সময় + দূরত্ব একসাথে</string>
+    <string name="ui_custom_time_label">নিজের সময়</string>
+    <string name="ui_custom_time_range">৩ মিনিট \u2013 ৯০ দিন</string>
+    <string name="ui_custom_distance_label">নিজের (০.৫ \u2013 ২০০ কিমি)</string>
+    <string name="ui_rule_any_short">যেকোনো একটি</string>
+    <string name="ui_rule_any_sub">যেকোনো একটি হলেই খুলবে</string>
+    <string name="ui_rule_all_short">দুটোই</string>
+    <string name="ui_rule_all_sub">দুটোই লাগবে</string>
+    <string name="ui_start_lock">লক শুরু করুন</string>
+    <string name="web_title">ওয়েবসাইট ফিল্টার</string>
+    <string name="web_hero_title">প্রাপ্তবয়স্ক ও অনুপযুক্ত ওয়েবসাইট ব্লক করুন</string>
+    <string name="web_hero_sub">ভালো থাকার জন্য নিরাপদ ব্রাউজিং</string>
+    <string name="web_enable">ওয়েবসাইট ফিল্টার চালু করুন</string>
+    <string name="web_blocklist_title">ব্লকলিস্ট অপশন</string>
+    <string name="web_default_blocklist">ডিফল্ট ব্লকলিস্ট (প্রাপ্তবয়স্ক সাইট)</string>
+    <string name="web_custom_blacklist">নিজের ব্ল্যাকলিস্ট</string>
+    <string name="web_allowlist">অ্যালাউলিস্ট (সবসময় অনুমতি)</string>
+    <string name="web_safe_search">নিরাপদ অনুসন্ধান</string>
+    <string name="web_safe_banner">আপনি নিরাপদ!</string>
+    <string name="web_safe_banner_sub">প্রাপ্তবয়স্ক কনটেন্ট ব্লক করা আছে।</string>
+    <string name="web_domains_count">%dটি ডোমেইন</string>
+    <string name="app_rule_title">অ্যাপ ব্লকার</string>
+    <string name="app_rule_usage_today">আজকের ব্যবহার</string>
+    <string name="app_rule_blocking_mode">ব্লক করার ধরন</string>
+    <string name="app_rule_mode_block">ব্লক করুন</string>
+    <string name="app_rule_mode_during">লক চলাকালে ব্লক</string>
+    <string name="app_rule_mode_allow">সবসময় অনুমতি</string>
+    <string name="app_rule_daily_limit">দৈনিক সীমা</string>
+    <string name="app_rule_limit_value">সীমা: প্রতিদিন %d মিনিট</string>
+    <string name="app_rule_limit_range">০ \u2013 ১৪৪০ মিনিট</string>
+    <string name="app_rule_save">নিয়ম সংরক্ষণ করুন</string>
+    <string name="app_rule_blocked_badge">ব্লক করা</string>
+    <string name="app_rule_allowed_badge">অনুমতি আছে</string>
+    <string name="app_rule_no_rule">এখনো কোনো নিয়ম নেই</string>
+    <string name="loc_map_preview_hint">পুরো ম্যাপ খুলতে ট্যাপ করুন</string>
+    <string name="loc_preview_no_zone">এখনো কোনো নিরাপদ জোন নেই \u2014 ম্যাপ খুলতে ট্যাপ করুন</string>
+    <string name="loc_zone_radius">ব্যাসার্ধ: %d মি</string>
+    <string name="stats_range_7">৭ দিন</string>
+    <string name="stats_range_30">৩০ দিন</string>
+    <string name="stats_range_custom">কাস্টম</string>
+    <string name="stats_range_custom_na">কাস্টম সময়সীমা এখনো চালু হয়নি।</string>
+    <string name="stats_focus_streak">ফোকাস স্ট্রিক</string>
+    <string name="stats_keep_going">চালিয়ে যান!</string>
+    <string name="stats_keep_going_sub">দারুণ স্ট্রিকে আছেন!</string>
+    <string name="stats_count_web">ওয়েবসাইট ব্লক</string>
+    <string name="stats_count_app">অ্যাপ ব্লক</string>
+    <string name="stats_count_interrupt">বাধা</string>
+    <string name="stats_count_ach">অর্জন</string>
+    <string name="set_app_version">PureLock v%s</string>
+    <string name="set_theme_dark">ডার্ক থিম</string>
+    <string name="set_theme_light">লাইট থিম</string>
+    <string name="set_privacy_row">গোপনীয়তা ও নিরাপত্তা</string>
+    <string name="set_backup_row">ব্যাকআপ ও রিস্টোর</string>
+    <string name="set_about_row">PureLock সম্পর্কে</string>
+    <string name="ui_reset_all">সব সেটিংস রিসেট করুন</string>
+    <string name="web_filter_status_on">অবস্থা: চালু — ব্রাউজারে ঠিকানা দেখা গেলে প্রাপ্তবয়স্ক সাইট দেখা ও ব্লক করা হয়।</string>
+    <string name="web_pdns_title">প্রাইভেট DNS — শক্তিশালী স্তর</string>
+    <string name="web_pdns_body">ওয়েবসাইট ব্লকিং আপনার ফোনের প্রাইভেট DNS থেকেও আসে। পারিবারিক ফিল্টারে সেট করুন — যেকোনো একটিই অ্যাপের ভেতরের ব্রাউজারসহ ফোনের সব অ্যাপে প্রাপ্তবয়স্ক সাইট ব্লক করে।</string>
+    <string name="web_pdns_kahf">Kahf Guard Moderate — medium.kahfguard.com</string>
+    <string name="web_pdns_cloudflare">Cloudflare Family — 1.1.1.3</string>
+    <string name="web_pdns_check_link">আমার ফিল্টারিং পরীক্ষা করুন: check.kahfguard.com</string>
+    <string name="web_pdns_open_settings">সিস্টেম সেটিংস খুলুন</string>
+    <string name="web_url_watch_limits">কীভাবে কাজ করে: ওয়েবসাইট ব্লকিং চালু থাকলে PureLock ব্রাউজারে দেখানো ঠিকানা দেখে ব্লকলিস্টের প্রাপ্তবয়স্ক সাইট ব্লক করে। অ্যাপের ভেতরের ব্রাউজার বা ওয়েবভিউ ঠিকানা নাও দেখাতে পারে, তাই এটি সর্বোচ্চ চেষ্টা — উপরের প্রাইভেট DNS-ই শক্তিশালী স্তর, যা সব অ্যাপে কাজ করে।</string>
+    <string name="dash_apps_blocked">ব্লক করা অ্যাপ</string>
+    <string name="dash_sites_blocked">ব্লক করা সাইট</string>
+    <string name="dash_keywords_blocked">ব্লক করা কীওয়ার্ড</string>
+    <string name="dash_block_adult">প্রাপ্তবয়স্ক কনটেন্ট ব্লক করুন</string>
+    <string name="dash_block_reels">রিলস/শর্টস ব্লক করুন</string>
+    <string name="dash_configure">সেট করুন</string>
+    <string name="dash_state_on">চালু</string>
+    <string name="kw_title">কীওয়ার্ড ব্লক করুন</string>
+    <string name="kw_switch_label">কীওয়ার্ড ব্লকিং</string>
+    <string name="kw_hint">কীওয়ার্ড লিখুন…</string>
+    <string name="kw_note">সেরা প্রচেষ্টার স্ক্যান: PureLock স্ক্রিনে দেখা লেখা পরীক্ষা করে। ছবি, ভিডিও বা লুকানো লেখা ধরা নাও পড়তে পারে।</string>
+    <string name="kw_empty">এখনো কোনো কীওয়ার্ড নেই। উপরে একটি যোগ করুন।</string>
+    <string name="reels_title">রিলস/শর্টস ব্লক করুন</string>
+    <string name="reels_intro">Shorts, Reels এবং অন্যান্য ইন-অ্যাপ ফিডের মতো মনোযোগ নষ্ট করা কনটেন্ট ব্লক করে মনোযোগ ধরে রাখুন।</string>
+    <string name="reels_master">নিচের সব ফিড ব্লক করুন</string>
+    <string name="reels_note">সেরা প্রচেষ্টার শনাক্তকরণ: PureLock স্ক্রিনে “Shorts” বা “Reels”-এর মতো ফিডের লেবেল খোঁজে। অ্যাপ লেবেল বদলাতে বা লুকাতে পারে, তাই কিছু ফিড দেখা যেতে পারে।</string>
+    <string name="reels_app_youtube">YouTube</string>
+    <string name="reels_app_instagram">Instagram</string>
+    <string name="reels_app_whatsapp">WhatsApp</string>
+    <string name="reels_app_snapchat">Snapchat</string>
+    <string name="reels_app_wabusiness">WA Business</string>
+    <string name="reels_youtube_shorts">Shorts</string>
+    <string name="reels_instagram_reels">Reels</string>
+    <string name="reels_instagram_stories">Stories</string>
+    <string name="reels_whatsapp_status">Status</string>
+    <string name="reels_whatsapp_channels">Channels</string>
+    <string name="reels_snapchat_spotlight">Spotlight</string>
+    <string name="reels_snapchat_stories">Stories</string>
+    <string name="reels_wabusiness_status">Status</string>
+    <string name="reels_wabusiness_channels">Channels</string>
+    <string name="cond_title">ব্লক করার শর্ত বেছে নিন</string>
+    <string name="cond_subtitle">বিধিনিষেধ কার্যকর করার একটি পদ্ধতি বেছে নিন।</string>
+    <string name="cond_none">কোনো ব্লক শর্ত নেই</string>
+    <string name="cond_none_sub">শুধু লক সক্রিয় থাকলে, অথবা দৈনিক সীমায় ব্লক হবে</string>
+    <string name="cond_usage_limit">ব্যবহারের সীমা</string>
+    <string name="cond_usage_limit_sub">যেমন দিনে ৩০ মিনিট অথবা ঘণ্টায় ৫ মিনিট</string>
+    <string name="cond_time_interval">নির্দিষ্ট সময়সীমা</string>
+    <string name="cond_time_interval_sub">যেমন সকাল ১০টা থেকে সন্ধ্যা ৬টা</string>
+    <string name="cond_quick_block">দ্রুত ব্লক</string>
+    <string name="cond_quick_block_sub">যেমন পরের ১০ মিনিট</string>
+    <string name="cond_launch_limit">খোলার সংখ্যা</string>
+    <string name="cond_launch_limit_sub">যেমন দিনে ২০ বার অথবা ঘণ্টায় ২ বার</string>
+    <string name="cond_wait_timer">অপেক্ষার টাইমার</string>
+    <string name="cond_wait_timer_sub">যেমন প্রতি ৫ মিনিট ব্যবহারের পর ৩০ মিনিট অপেক্ষা</string>
+    <string name="cond_goal">লক্ষ্য ভিত্তিক</string>
+    <string name="cond_goal_sub">যেমন শিক্ষামূলক অ্যাপে ৩০ মিনিট না কাটানো পর্যন্ত ব্লক</string>
+    <string name="cond_location">অবস্থান</string>
+    <string name="cond_location_sub">যেমন অফিসে সামাজিক অ্যাপ, অথবা বাড়িতে কাজের অ্যাপ ব্লক</string>
+    <string name="cond_daily_limit">দৈনিক সীমা</string>
+    <string name="cond_hourly_limit">ঘণ্টার সীমা</string>
+    <string name="cond_minutes_hint">মিনিট (০ = সীমা নেই)</string>
+    <string name="cond_limit_hint">০ মানে সীমা নেই। আজকের ব্যবহার সীমায় পৌঁছালে অ্যাপটি ব্লক হবে।</string>
+    <string name="cond_quick_minutes">ব্লক থাকবে (মিনিট)</string>
+    <string name="cond_quick_hint">লক ছাড়াই এই সময় শেষ না হওয়া পর্যন্ত অ্যাপটি ব্লক থাকবে।</string>
+    <string name="cond_launches_day">দিনে খোলার সংখ্যা</string>
+    <string name="cond_launches_hour">ঘণ্টায় খোলার সংখ্যা</string>
+    <string name="cond_count_hint">সংখ্যা (০ = সীমা নেই)</string>
+    <string name="cond_wait_after">ব্যবহার করুন (মিনিট)</string>
+    <string name="cond_wait_for">তারপর অপেক্ষা করুন (মিনিট)</string>
+    <string name="cond_wait_hint">প্রতি ব্যবহারের পর অপেক্ষার সময়টুকু অ্যাপটি ব্লক থাকবে।</string>
+    <string name="cond_goal_app">লক্ষ্যের অ্যাপ</string>
+    <string name="cond_goal_pick_app">একটি অ্যাপ বেছে নিন</string>
+    <string name="cond_goal_minutes">লক্ষ্যের অ্যাপে কাটাতে হবে (মিনিট)</string>
+    <string name="cond_location_zone">জায়গা</string>
+    <string name="cond_location_at">এই জায়গায় থাকলে</string>
+    <string name="cond_location_away">এই জায়গা থেকে দূরে থাকলে</string>
+    <string name="cond_zone_open_map">জায়গা যোগ করতে ম্যাপ খুলুন</string>
+    <string name="cond_zone_none">কোনো জায়গা নয়</string>
+    <string name="cond_apps_loading">অ্যাপ লোড হচ্ছে, একটু পরে আবার চেষ্টা করুন।</string>
+    <string name="cond_need_value">এই শর্তের জন্য একটি মান দিন।</string>
+    <string name="cond_need_range">একটি সময়সীমা বেছে নিন, অথবা পুরো দিন চালু করুন।</string>
+    <string name="cond_need_goal">লক্ষ্যের অ্যাপ ও মিনিট বেছে নিন।</string>
+    <string name="cond_need_zone">এই শর্তের জন্য একটি জায়গা বেছে নিন।</string>
+    <string name="cond_clear">শর্ত সরান</string>
+    <string name="cond_save">শর্ত সংরক্ষণ করুন</string>
+    <string name="rule_condition">ব্লক করার শর্ত</string>
+    <string name="rule_condition_none">কোনো ব্লক শর্ত নেই</string>
+    <string name="rule_want_block">যা ব্লক করতে চাই</string>
+    <string name="rule_app_launch">অ্যাপ খোলা</string>
+    <string name="rule_notification">নোটিফিকেশন</string>
+    <string name="rule_notification_note">নোটিফিকেশন ব্লক এই নিয়মের সঙ্গে সংরক্ষণ হয়, তবে PureLock এখনও নোটিফিকেশন লুকাতে পারে না — এর নোটিফিকেশন অনুমতি নেই। অ্যাপ খোলা ব্লক করা কাজ করে।</string>
+    <string name="rule_on_days">যেসব দিনে</string>
+    <string name="rule_in_intervals">সময়সীমায়</string>
+    <string name="rule_full_day">পুরো দিন</string>
+    <string name="rule_interval_start">শুরুর সময়</string>
+    <string name="rule_interval_end">শেষের সময়</string>
+    <string name="rule_interval_start_value">%1$s থেকে শুরু</string>
+    <string name="rule_interval_end_value">%1$s-এ শেষ</string>
+    <string name="rule_location_section">আমি যখন এই অবস্থানে থাকি</string>
+    <string name="rule_tap_set_location">অবস্থান ঠিক করতে ট্যাপ করুন</string>
+    <string name="rule_block_if_unavailable">অবস্থান না পাওয়া গেলে ব্লক করুন</string>
+    <string name="rule_block_if_unavailable_hint">অবস্থানের অনুমতি বা GPS বন্ধ থাকলে, নিয়মটি এড়ানো যাবে না বলে অ্যাপ ব্লক থাকবে।</string>
+    <string name="rule_cond_summary_usage_both">ব্যবহারের সীমা: দিনে %1$d মিনিট · ঘণ্টায় %2$d মিনিট</string>
+    <string name="rule_cond_summary_usage_daily">ব্যবহারের সীমা: দিনে %1$d মিনিট</string>
+    <string name="rule_cond_summary_usage_hourly">ব্যবহারের সীমা: ঘণ্টায় %1$d মিনিট</string>
+    <string name="rule_cond_summary_interval">সময়সীমা: %1$s, %2$s–%3$s</string>
+    <string name="rule_cond_summary_fullday">সময়সীমা: %1$s, পুরো দিন</string>
+    <string name="rule_cond_summary_quick">%1$s পর্যন্ত দ্রুত ব্লক</string>
+    <string name="rule_cond_summary_launches_both">খোলা: দিনে %1$d বার · ঘণ্টায় %2$d বার</string>
+    <string name="rule_cond_summary_launches_day">খোলা: দিনে %1$d বার</string>
+    <string name="rule_cond_summary_launches_hour">খোলা: ঘণ্টায় %1$d বার</string>
+    <string name="rule_cond_summary_wait">প্রতি %2$d মিনিট ব্যবহারের পর %1$d মিনিট অপেক্ষা</string>
+    <string name="rule_cond_summary_goal">লক্ষ্য: %2$s-এ %1$d মিনিট</string>
+    <string name="rule_cond_summary_location">অবস্থান: %1$s (%2$s)</string>
+    <string name="rule_cond_every_day">প্রতিদিন</string>
+    <string name="stats_title">অ্যানালিটিক্স</string>
+    <string name="stats_tab_screen_time">স্ক্রিন টাইম</string>
+    <string name="stats_tab_launches">অ্যাপ খোলা</string>
+    <string name="stats_tab_browsing">ব্রাউজিং টাইম</string>
+    <string name="stats_tab_unlocks">স্ক্রিন আনলক</string>
+    <string name="stats_tab_timeline">ব্যবহারের সময়রেখা</string>
+    <string name="stats_permission_needed">অ্যানালিটিক্স দেখাতে ব্যবহারের অনুমতি লাগবে — আসল স্ক্রিন টাইম, খোলার সংখ্যা ও সময়রেখা। অনুমতি না দিলে কোনো ব্যবহার দেখানো হবে না।</string>
+    <string name="stats_grant_usage">ব্যবহারের অনুমতি দিন</string>
+    <string name="stats_total_screen_time">মোট স্ক্রিন টাইম</string>
+    <string name="stats_hourly">প্রতি ঘণ্টার স্ক্রিন টাইম</string>
+    <string name="stats_browsing_total">মোট ব্রাউজিং টাইম</string>
+    <string name="stats_unlocks_total">স্ক্রিন আনলক</string>
+    <string name="stats_unlocks_note">স্ক্রিন জাগার সংখ্যা গণনা হয় (UsageStats স্ক্রিন চালু হওয়ার তথ্য দেয়, আসল আনলকের নয়)।</string>
+    <string name="stats_usage_overview">ব্যবহারের বিবরণ</string>
+    <string name="stats_no_usage_data">আজ এখনও কোনো ব্যবহার রেকর্ড হয়নি।</string>
+    <string name="stats_protection_title">সুরক্ষা</string>
+    <string name="stats_launches_value">%d বার খোলা</string>
+
+    <!-- Unified lock -->
+    <string name="action_back">ফিরে যান</string>
+    <string name="dash_start_lock_title">লক চালু করুন</string>
+    <string name="dash_start_lock_desc">একটাই লক, সব সুরক্ষা তার অধীনে।</string>
+    <string name="dash_start_lock_button">লক চালু</string>
+    <string name="dash_start_lock_active">লক চালু আছে</string>
+    <string name="dash_start_lock_active_desc">লক দেখতে ও জরুরি ওভাররাইড করতে চাপুন।</string>
+    <string name="lock_keyword_remove_refused">লক চালু আছে: লক শেষ না হওয়া পর্যন্ত কীওয়ার্ড যোগ করা যাবে, মুছা যাবে না।</string>
+
+    <!-- Integrity issues (one line each, shown on Home) -->
+    <string name="integrity_issue_accessibility">অ্যাক্সেসিবিলিটি বন্ধ: অ্যাপ ব্লক কাজ করছে না।</string>
+    <string name="integrity_issue_location_permission">লোকেশন অনুমতি নেই: লোকেশনের শর্তে লক খুলবে না।</string>
+    <string name="integrity_issue_background_location">ব্যাকগ্রাউন্ড লোকেশন বন্ধ: আপনি পৌঁছেছেন বা ভ্রমণ করেছেন তা লক নাও টের পেতে পারে।</string>
+    <string name="integrity_issue_location_disabled">ফোনে লোকেশন বন্ধ করা আছে।</string>
+    <string name="integrity_issue_location_stale">সাম্প্রতিক লোকেশন পাওয়া যাচ্ছে না: লোকেশনের শর্ত দেরি হতে পারে।</string>
+    <string name="integrity_issue_vpn_off">DNS VPN চলছে না: সাইট ব্লক এখন শুধু URL নজরদারির ওপর নির্ভর করছে।</string>
+    <string name="integrity_issue_notifications">নোটিফিকেশন বন্ধ: সুরক্ষা ভাঙলে আপনি সতর্কবার্তা পাবেন না।</string>
+    <string name="integrity_issue_usage_access">ব্যবহারের তথ্য দেখার অনুমতি নেই: দৈনিক সীমা গোনা যাবে না।</string>
+    <string name="integrity_issue_private_dns">Private DNS এমন সার্ভারে সেট করা যা ফিল্টার করে না: সাইট ব্লক VPN ও URL নজরদারির ওপর নির্ভর করছে।</string>
+    <string name="integrity_issue_battery">PureLock-এর ব্যাটারি অপটিমাইজেশন চালু: লক যাচাই দেরি হতে পারে।</string>
+    <string name="integrity_issue_feature_rules">ফিচার রুল প্যাক লোড করা যায়নি: ফিড ব্লক পুরনো উপায়ে চলছে।</string>
+
+    <!-- Module names -->
+    <string name="module_power_menu">পাওয়ার মেনু ব্লক</string>
+    <string name="module_apk_install">APK ইনস্টল ব্লক</string>
+    <string name="module_uninstall">আনইনস্টল ব্লক</string>
+    <string name="module_app_info">অ্যাপ তথ্য ব্লক</string>
+    <string name="module_app_block">অ্যাপ ব্লক</string>
+    <string name="module_feature_block">অ্যাপের ভেতরের ফিচার ব্লক</string>
+    <string name="module_site_block">সাইট ব্লক</string>
+    <string name="module_keyword_block">কীওয়ার্ড ব্লক</string>
+
+    <!-- Start Lock wizard -->
+    <string name="start_lock_title">লক চালু করুন</string>
+    <string name="start_lock_active_title">লক চালু আছে</string>
+    <string name="start_lock_duration_title">কতক্ষণ পর খুলবে</string>
+    <string name="start_lock_dur_30min">৩০ মিনিট</string>
+    <string name="start_lock_dur_1h">১ ঘণ্টা</string>
+    <string name="start_lock_dur_3h">৩ ঘণ্টা</string>
+    <string name="start_lock_dur_6h">৬ ঘণ্টা</string>
+    <string name="start_lock_dur_12h">১২ ঘণ্টা</string>
+    <string name="start_lock_dur_24h">২৪ ঘণ্টা</string>
+    <string name="start_lock_dur_custom">নিজের মতো</string>
+    <string name="start_lock_custom_hours">ঘণ্টা</string>
+    <string name="start_lock_custom_minutes">মিনিট</string>
+    <string name="start_lock_location_title">অথবা লোকেশনে খুলবে</string>
+    <string name="start_lock_loc_none">লোকেশনের শর্ত নেই</string>
+    <string name="start_lock_loc_distance">এখান থেকে দূরে গেলে</string>
+    <string name="start_lock_loc_zone">সংরক্ষিত জায়গায় পৌঁছালে</string>
+    <string name="start_lock_distance_km">দূরত্ব কিলোমিটারে (০.৫ – ২০০)</string>
+    <string name="start_lock_no_zones">এখনও কোনো জায়গা সংরক্ষিত নেই। আগে মানচিত্র থেকে একটি যোগ করুন।</string>
+    <string name="start_lock_manage_zones">জায়গা পরিচালনা</string>
+    <string name="start_lock_rule_title">দুটোই থাকলে, খুলবে যখন</string>
+    <string name="start_lock_rule_any">যেকোনো একটা পূরণ হবে</string>
+    <string name="start_lock_rule_all">দুটোই পূরণ হবে</string>
+    <string name="start_lock_modules_title">এই লকের সুরক্ষা</string>
+    <string name="start_lock_modules_desc">লক চালু হলে এগুলো সংরক্ষিত হয়। লক চলাকালীন সুইচ শুধু চালু করা যাবে, বন্ধ করা যাবে না।</string>
+    <string name="start_lock_power_menu_partial">Device Owner ছাড়া পাওয়ার মেনু অ্যাক্সেসিবিলিটি দিয়ে বন্ধ করা হয়: মেনুটি একটু দেখা যায়, তাই এই পথ আংশিক। Device Owner থাকলে মেনু খুলবেই না।</string>
+    <string name="start_lock_incognito">লক চলাকালীন ইনকগনিটো / প্রাইভেট ট্যাব ব্লক করুন</string>
+    <string name="start_lock_dns_vpn">সাইট ব্লকের জন্য DNS VPN ব্যবহার করুন</string>
+    <string name="start_lock_image_detection">পরীক্ষামূলক স্ক্রিন ছবি শনাক্তকরণ</string>
+    <string name="start_lock_image_note">পরীক্ষামূলক: এটি ভুল করতে পারে, এবং বেশি ব্যাটারি খরচ করে। ছবি ফোনেই যাচাই হয়, কোথাও সংরক্ষণ বা পাঠানো হয় না।</string>
+    <string name="start_lock_sens_low">কম</string>
+    <string name="start_lock_sens_medium">মাঝারি</string>
+    <string name="start_lock_sens_high">বেশি</string>
+    <string name="start_lock_override_title">জরুরি ওভাররাইড শব্দ</string>
+    <string name="start_lock_override_desc">এই শব্দ টাইপ করলে যেকোনো লক ভেঙে যাবে। প্রতিটি ব্যবহার লগে লেখা হয়। শব্দটির শুধু হ্যাশ সংরক্ষিত হয়, শব্দটি নয়।</string>
+    <string name="start_lock_override_hint">আপনার ওভাররাইড শব্দ</string>
+    <string name="start_lock_override_active_desc">এই লক এখনই ভাঙতে শব্দটি টাইপ করুন। এটি লগে লেখা হবে।</string>
+    <string name="start_lock_override_button">লক ভাঙুন</string>
+    <string name="start_lock_override_confirm">এতে লক এখনই শেষ হবে এবং ওভাররাইড লগে লেখা হবে। আপনি কি নিশ্চিত?</string>
+    <string name="start_lock_override_wrong">এটি ওভাররাইড শব্দ নয়।</string>
+    <string name="start_lock_override_done">জরুরি ওভাররাইডে লক শেষ হয়েছে।</string>
+    <string name="start_lock_button">লক চালু</string>
+    <string name="start_lock_note">লক চালু করলে উপরের সব সুরক্ষা একসাথে চালু হবে। জরুরি কল সবসময় কাজ করবে।</string>
+    <string name="start_lock_needs_condition">সময়, লোকেশন, অথবা দুটোই বেছে নিন।</string>
+    <string name="start_lock_bad_duration">সময় ৩ মিনিট থেকে ৯০ দিনের মধ্যে হতে হবে।</string>
+    <string name="start_lock_bad_distance">দূরত্ব ০.৫ কিমি থেকে ২০০ কিমির মধ্যে হতে হবে।</string>
+    <string name="start_lock_word_short">ওভাররাইড শব্দে কমপক্ষে ৪টি অক্ষর থাকতে হবে।</string>
+    <string name="start_lock_location_denied">লোকেশন লকের জন্য লোকেশন অনুমতি দরকার।</string>
+    <string name="start_lock_no_fix">আপনার লোকেশন পাওয়া যাচ্ছে না। খোলা জায়গায় গিয়ে আবার চেষ্টা করুন।</string>
+    <string name="start_lock_started">লক চালু হয়েছে।</string>
+    <string name="start_lock_already_active">একটি লক ইতিমধ্যে চালু আছে।</string>
+    <string name="start_lock_active_location_only">লোকেশন লক — টাইমার নেই</string>
+    <string name="start_lock_cond_time">সময় শেষ হলে খুলবে।</string>
+    <string name="start_lock_cond_zone">%1$s-এ পৌঁছালে খুলবে।</string>
+    <string name="start_lock_cond_distance">শুরু থেকে %1$.1f কিমি ভ্রমণ করলে খুলবে।</string>
+
+    <!-- Protection screen -->
+    <string name="protection_title">সুরক্ষা</string>
+    <string name="protection_status_title">সুরক্ষার অবস্থা</string>
+    <string name="protection_status_ok">সব সুরক্ষা ঠিকমতো কাজ করছে।</string>
+    <string name="protection_status_unknown">এই মুহূর্তে অবস্থা যাচাই করা যায়নি।</string>
+    <string name="protection_device_owner_title">Device Owner</string>
+    <string name="protection_device_owner_on">PureLock Device Owner: সবচেয়ে শক্তিশালী সুরক্ষা চালু আছে।</string>
+    <string name="protection_device_owner_off">PureLock Device Owner নয়। এটি ছাড়া পাওয়ার মেনু, ইনস্টল ও আনইনস্টল ব্লক অ্যাক্সেসিবিলিটি দিয়ে চলে, যা আংশিক। Device Owner করতে ফোনটি কম্পিউটারে যুক্ত করে (ফোনে কোনো অ্যাকাউন্ট ছাড়া) একবার এই কমান্ডটি চালান:</string>
+    <string name="protection_modules_title">সুরক্ষা মডিউল</string>
+    <string name="protection_modules_locked_note">লক চালু আছে: সুইচগুলো লকের সংরক্ষিত অবস্থা দেখাচ্ছে, শুধু চালু করা যাবে।</string>
+    <string name="protection_vpn_title">DNS VPN (সাইট ব্লক)</string>
+    <string name="protection_vpn_running">DNS VPN চলছে।</string>
+    <string name="protection_vpn_stopped">DNS VPN চলছে না।</string>
+    <string name="protection_vpn_start">VPN চালু করুন</string>
+    <string name="protection_image_title">ছবি শনাক্তকরণ</string>
+    <string name="protection_rules_loaded">ফিচার রুল প্যাক: %1$dটি রুল লোড হয়েছে।</string>
+    <string name="protection_rules_broken">ফিচার রুল প্যাক লোড করা যায়নি: পুরনো উপায় ব্যবহৃত হচ্ছে।</string>
+    <string name="protection_word_change">ওভাররাইড শব্দ বদলান</string>
+    <string name="protection_word_changed">ওভাররাইড শব্দ বদলে গেছে।</string>
+    <string name="protection_word_locked">লক চলাকালীন ওভাররাইড শব্দ বদলানো যাবে না।</string>
+    <string name="protection_refused">লক চালু আছে: সুরক্ষা শুধু চালু করা যাবে, বন্ধ করা যাবে না।</string>
+
+    <!-- DNS-only VPN -->
+    <string name="vpn_session_name">PureLock সাইট ব্লক</string>
+    <string name="vpn_notif_title">সাইট ব্লক চালু আছে</string>
+    <string name="vpn_notif_text">DNS প্রশ্নের উত্তর এই ফোনেই দেওয়া হচ্ছে; ব্লক করা সাইট খুলবে না।</string>
+
+    <!-- Experimental image detection -->
+    <string name="image_detection_title">ছবি শনাক্তকরণ</string>
+    <string name="image_detection_model_missing">অ্যাপের সাথে এখনও কোনো শনাক্তকরণ মডেল দেওয়া হয়নি, তাই ছবি শনাক্তকরণ চলতে পারবে না। কাঠামো প্রস্তুত; মডেল ফাইল এখনও দরকার।</string>
+    <string name="image_detection_notification_text">ফোনেই স্ক্রিনে প্রাপ্তবয়স্ক ছবি আছে কিনা যাচাই করা হচ্ছে।</string>
+    <string name="image_detection_cover_title">স্ক্রিন ঢেকে দেওয়া হয়েছে</string>
+    <string name="image_detection_cover_text">ফোনের ডিটেক্টর এই স্ক্রিনকে সন্দেহজনক বলেছে। এটি ভুল হতে পারে — এটি পরীক্ষামূলক।</string>
+    <string name="image_detection_cover_note">কিছুই সংরক্ষণ বা পাঠানো হয়নি।</string>
+    <string name="image_detection_cover_home">হোমে যান</string>
+</resources>

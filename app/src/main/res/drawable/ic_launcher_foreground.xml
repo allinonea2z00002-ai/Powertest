@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stay Focused-style app mark: white nested flat-top hexagons forming a cube,
+     cyan right face, white keyhole at the centre. Traced from the S22 drawer icon.
+     Flat-top hexagon, centre (54,54): outer R=32, mid R=21.5. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cyan right face of the cube (between mid and outer hexagon). -->
+    <path
+        android:fillColor="#35B6F5"
+        android:pathData="M64.75,72.6 L75.5,54 L86,54 L70,81.7 Z" />
+
+    <!-- Outer hexagon outline. -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6.5"
+        android:strokeLineJoin="miter"
+        android:pathData="M38,26.3 L70,26.3 L86,54 L70,81.7 L38,81.7 L22,54 Z" />
+
+    <!-- Middle hexagon outline. -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineJoin="miter"
+        android:pathData="M43.25,35.4 L64.75,35.4 L75.5,54 L64.75,72.6 L43.25,72.6 L32.5,54 Z" />
+
+    <!-- Horizontal connector bars at mid-height, left and right. -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:pathData="M32.5,54 L22,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:pathData="M75.5,54 L86,54" />
+
+    <!-- Keyhole: circle + stem, centred in the inner hexagon. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57.8,49.5 a3.8,3.8 0 1,1 -7.6,0 a3.8,3.8 0 1,1 7.6,0 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,52.5 L56,52.5 L57.3,59.5 L50.7,59.5 Z" />
+</vector>

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "_comment": "PureLock feature-block rules. When an app updates and a rule stops matching, only this file has to change. viewIds match the resource name after 'id/' (exact or contains), texts match whole words, descriptions match substrings. All matching is case-insensitive.",
+  "rules": [
+    {
+      "id": "instagram_reels",
+      "package": "com.instagram.android",
+      "feature": "Reels",
+      "viewIds": [
+        "clips_viewer",
+        "clips_tab",
+        "reels_tab",
+        "reels_viewer"
+      ],
+      "texts": [
+        "Reels"
+      ],
+      "descriptions": [
+        "Reels",
+        "Reels tab"
+      ],
+      "action": "BACK_THEN_HOME"
+    },
+    {
+      "id": "instagram_explore_search",
+      "package": "com.instagram.android",
+      "feature": "Explore/Search",
+      "viewIds": [
+        "explore_tab",
+        "search_tab",
+        "explore_people_tab"
+      ],
+      "texts": [
+        "Explore",
+        "Search"
+      ],
+      "descriptions": [
+        "Explore",
+        "Search tab",
+        "Explore tab"
+      ],
+      "action": "BACK_THEN_HOME"
+    },
+    {
+      "id": "youtube_shorts",
+      "package": "com.google.android.youtube",
+      "feature": "Shorts",
+      "viewIds": [
+        "shorts",
+        "reel_watch",
+        "shorts_tab"
+      ],
+      "texts": [
+        "Shorts"
+      ],
+      "descriptions": [
+        "Shorts",
+        "Shorts tab"
+      ],
+      "action": "BACK_THEN_HOME"
+    },
+    {
+      "id": "facebook_reels",
+      "package": "com.facebook.katana",
+      "feature": "Reels",
+      "viewIds": [
+        "reels",
+        "reels_tab",
+        "fb_reels"
+      ],
+      "texts": [
+        "Reels"
+      ],
+      "descriptions": [
+        "Reels",
+        "Reels tab"
+      ],
+      "action": "BACK_THEN_HOME"
+    },
+    {
+      "id": "tiktok_feed",
+      "package": "com.zhiliaoapp.musically",
+      "feature": "For You feed",
+      "viewIds": [
+        "feed",
+        "for_you",
+        "video_feed"
+      ],
+      "texts": [
+        "For You",
+        "Following"
+      ],
+      "descriptions": [
+        "For You",
+        "Following"
+      ],
+      "action": "BACK_THEN_HOME"
+    },
+    {
+      "id": "telegram_search",
+      "package": "org.telegram.messenger",
+      "feature": "Search",
+      "viewIds": [
+        "search",
+        "search_view",
+        "search_button"
+      ],
+      "texts": [
+        "Search"
+      ],
+      "descriptions": [
+        "Search"
+      ],
+      "action": "BACK_THEN_HOME"
+    }
+  ]
+}
