@@ -119,7 +119,6 @@ class IntegrityChecker(
      * user's own settings, not ours to change.
      */
     suspend fun evaluateAndNotify() {
-    suspend fun evaluateAndNotify() {
         val report = check()
 
         val previous = db.prefDao().get(KEY_LAST_ISSUES).orEmpty()
