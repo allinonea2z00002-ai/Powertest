@@ -144,7 +144,7 @@ class DnsVpnService : VpnService() {
         val udp = IpPacket.parseUdp(ipPacket) ?: return
         if (udp.dstPort != IpPacket.DNS_PORT) return
         val query = DnsPacket.parseQuery(udp.payload) ?: return
-        val response: ByteArray? = when {
+        val response: ByteArray = when {
             Graph.blocklist.isBlocked(query.name) ->
                 DnsPacket.buildNxDomain(query, udp.payload)
 
